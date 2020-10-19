@@ -1,5 +1,11 @@
-import { React } from "react";
-import { ReactDOM } from "react-dom";
-import { App } from "./components/apps.jsx";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/App';
 
-ReactDOM.render(<App text="hi" />, document.getElementById('root'));
+
+ReactDOM.render(
+    <App 
+        text="UGGGGGGGGGGGGGGGGGHhhhhhhhhh!"
+    />,
+  document.getElementById('root')
+);
